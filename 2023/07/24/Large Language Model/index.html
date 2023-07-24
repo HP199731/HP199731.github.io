@@ -20,20 +20,21 @@
     var CONFIG = {"hostname":"hp199731.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="个人简历">
-<meta property="og:url" content="http://hp199731.github.io/about/index.html">
+  <meta name="description" content="前言 计划最近用课题组服务器训练一个可以介绍个人信息和科研经历的大语言模型，应该比只用简历更加容易打动面试官。看了一些教程，目前感觉可以实现这个目标。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="大语言模型 —— 介绍个人信息和科研经历">
+<meta property="og:url" content="http://hp199731.github.io/2023/07/24/Large%20Language%20Model/index.html">
 <meta property="og:site_name" content="Pan&#39;s blog">
+<meta property="og:description" content="前言 计划最近用课题组服务器训练一个可以介绍个人信息和科研经历的大语言模型，应该比只用简历更加容易打动面试官。看了一些教程，目前感觉可以实现这个目标。">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://hp199731.github.io/files/images/resume_1.png">
-<meta property="og:image" content="http://hp199731.github.io/files/images/resume_2.png">
-<meta property="article:published_time" content="2023-07-23T11:50:13.000Z">
-<meta property="article:modified_time" content="2023-07-23T12:59:24.545Z">
+<meta property="article:published_time" content="2023-07-24T11:07:05.000Z">
+<meta property="article:modified_time" content="2023-07-24T11:14:47.417Z">
 <meta property="article:author" content="Pan Huang">
+<meta property="article:tag" content="找工作">
+<meta property="article:tag" content="自我介绍">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://hp199731.github.io/files/images/resume_1.png">
 
-<link rel="canonical" href="http://hp199731.github.io/about/">
+<link rel="canonical" href="http://hp199731.github.io/2023/07/24/Large%20Language%20Model/">
 
 
 <script id="page-configurations">
@@ -41,13 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>个人简历 | Pan's blog
-</title>
+  <title>大语言模型 —— 介绍个人信息和科研经历 | Pan's blog</title>
   
 
 
@@ -159,46 +159,93 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="en">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://hp199731.github.io/2023/07/24/Large%20Language%20Model/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/files/images/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg">
+      <meta itemprop="name" content="Pan Huang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Pan's blog">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          大语言模型 —— 介绍个人信息和科研经历
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">个人简历
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
 
-<div class="post-meta">
+              <time title="Created: 2023-07-24 19:07:05 / Modified: 19:14:47" itemprop="dateCreated datePublished" datetime="2023-07-24T19:07:05+08:00">2023-07-24</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%85%B6%E4%BB%96/" itemprop="url" rel="index"><span itemprop="name">其他</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp;&emsp;计划最近用课题组服务器训练一个可以介绍个人信息和科研经历的大语言模型，应该比只用<a href="https://hp199731.github.io/about">简历</a>更加容易打动面试官。看了一些教程，目前感觉可以实现这个目标。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%89%BE%E5%B7%A5%E4%BD%9C/" rel="tag"># 找工作</a>
+              <a href="/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/" rel="tag"># 自我介绍</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/07/16/My%20Paper/" rel="prev" title="读博期间文章总结">
+      <i class="fa fa-chevron-left"></i> 读博期间文章总结
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <!-- <div class="pdfobject-container" data-target="pdf/resume.pdf" data-height="500px"></div> -->
-
-<p><img src="/files/images/resume_1.png"><br><img src="/files/images/resume_2.png"></p>
-
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -249,6 +296,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
